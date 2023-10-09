@@ -37,7 +37,7 @@ public class Application2 {
         System.out.print("0 ~ 4까지의 숫자를 입력해주세요 : ");
         int num = sc.nextInt();
 
-        if(num > fruits.length){
+        if(num > fruits.length){ //입력한 숫자가 후르츠배열의 길이보다 크면 출력하도록 설정. 0~4를 넣어야하므로 5이상부터 출력됨.
             System.out.println("준비된 과일이 없습니다.");
         }//이 부분은 뭔가 더 좋은 방법이 있을 것 같다. 일단은 되긴 됐는데..
         for(int i = 0; i < fruits.length; i++){

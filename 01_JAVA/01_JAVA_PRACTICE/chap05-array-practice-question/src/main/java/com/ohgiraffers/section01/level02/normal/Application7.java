@@ -20,8 +20,10 @@ public class Application7 {
         for(int i = 0; i < ten.length; i++) {
             int random = (int) (Math.random() * 10) + 1;
             ten[i] = random;
-            System.out.print(ten[i] + " ");
-        }//ten.length 횟수만큼(여기서는 10)만큼 랜덤함수를 생성하는 코드. 생성된 랜덤 값은 ten배열에 1개씩 대입시킨다.
+            //ten.length 횟수만큼(여기서는 10)만큼 랜덤함수를 생성하는 코드.
+            // 생성된 랜덤 값 random을 ten배열에 1개씩 대입시킨다.
+            System.out.print(ten[i] + " "); //잘 들어갔는지 출력
+        }
         for(int i = 1; i < ten.length; i++){
             for(int j = 0; j < i; j++){
 
@@ -29,10 +31,10 @@ public class Application7 {
                     int temp;
                     temp = ten[i];
                     ten[i] = ten[j];
-                    ten[j] = temp;
+                    ten[j] = temp; //배열을 오름차순으로 순차정렬하는 코드
                 }
             }
-        }//배열을 오름차순으로 순차정렬하는 코드
+        }
         System.out.println();
         System.out.println("최대값 : " + ten[9]);
         System.out.println("최소값 : " + ten[0]);

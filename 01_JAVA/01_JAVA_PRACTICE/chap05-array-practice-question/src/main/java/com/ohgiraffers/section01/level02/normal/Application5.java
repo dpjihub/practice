@@ -26,12 +26,17 @@ public class Application5 {
         char search = sc.next().charAt(0);
 
         int count = 0;
+        String sStr = "";
 
         for(int i = 0; i < ch.length; i++){
             if(search == Str.charAt(i)) {
                 count++;
+                sStr += i + " "; //이부분은 선생님 답 보고 함. 계산을 받아줄 String 타입 변수 sStr을 선언하고,
+                //search (내가 입력한 문자)가 Str.charAt(i) 에 있는 부분이 i번째 이므로 그 때마다 sStr에 i를 넣어준다.
+                //다음 인덱스 숫자랑 구분하도록 공백도 해준다.
 
             }
         }System.out.println(search + " 의 개수 : " + count);
+        System.out.println(Str + "에 " + search + "가 존재하는 인덱스 : " + sStr);
     }
 }
