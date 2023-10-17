@@ -26,7 +26,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/dev/02_sublectureSource/01_JAVA/01_JAVA_PRACTICE/chap01-literal-and-variable-practice-answer",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/dev/02_sublectureSource/01_JAVA/01_JAVA_PRACTICE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +49,8 @@
       <workItem from="1696429249878" duration="614000" />
       <workItem from="1696465951573" duration="32000" />
       <workItem from="1696828064336" duration="75000" />
+      <workItem from="1696861743051" duration="32000" />
+      <workItem from="1696861824306" duration="46000" />
     </task>
     <servers />
   </component>
